@@ -1,0 +1,54 @@
+{
+  "name": "reactserverrender",
+  "version": "1.0.0",
+  "description": "React Server Render",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack -w & cross-env NODE_ENV=development node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirav12/reactserverrender.git"
+  },
+  "keywords": [
+    "React",
+    "Server",
+    "Rendering"
+  ],
+  "author": "Nirav Desai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nirav12/reactserverrender/issues"
+  },
+  "homepage": "https://github.com/nirav12/reactserverrender#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-react-app": "^3.0.2",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.5",
+    "eslint-config-defaults": "^9.0.0",
+    "express": "^4.15.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "path": "^0.12.7",
+    "postcss-loader": "^2.0.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "webpack-css-loaders": "^1.0.0",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.5.0",
+    "eslint-plugin-react": "^7.3.0",
+    "json-loader": "^0.5.7",
+    "webpack": "^3.5.5"
+  }
+}
